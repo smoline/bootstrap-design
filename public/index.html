@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="screen.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+      /* A little styling to improve the design */
+
+      .img-rounded {
+        border-radius: 16px;
+      }
+
+      ul {
+        margin: 0;
+      }
+
+      .pagination {
+        margin: 0;
+      }
+
+      table {
+        font-size: inherit;
+      }
+
+      .login-well {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .login-well div {
+        margin: 10px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">TIY Sports</a>
+      </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Teams</a></li>
+          <li><a href="#">Players</a></li>
+          <li><a href="#">Games</a></li>
+        </ul>
+          <form class="navbar-form navbar-right">
+            <form class="form-inline">
+              <div class="form-group">
+                <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+                <div class="input-group">
+                  <input type="text" class="form-control" id="exampleInputAmount" placeholder="">
+                  <div class="input-group-addon"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></div>
+                </div>
+              </div>
+            </form>
+          </form>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+      <div class="jumbotron">
+        <div class="media">
+          <div class="media-body">
+            <h1>TIY Sports</h1>
+            <p>&hearts; For the students of The Iron Yard</p>
+          </div>
+          <div class="media-right">
+            <a href="#">
+              <img src="./assets/images/sports.jpg" class="img-circle" height="150" width="150" alt="sports">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3 col-md-3">
+          <div class="thumbnail">
+            <img src="./assets/images/football.jpg" alt="...">
+            <div class="caption">
+              <h3 class="text-center">Football</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-3">
+          <div class="thumbnail">
+            <img src="./assets/images/baseball.jpg" alt="...">
+            <div class="caption">
+              <h3 class="text-center">Baseball</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-3">
+          <div class="thumbnail">
+            <img src="./assets/images/basketball.jpg" alt="...">
+            <div class="caption">
+              <h3 class="text-center">Basketball</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-3">
+          <div class="thumbnail">
+            <img src="./assets/images/quidditch.jpg" alt="...">
+            <div class="caption">
+              <h3 class="text-center">Quidditch</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="alert alert-warning" role="alert">
+        We've added some new features in version 2.0!<small><a href=""> Learn More</a></small>
+      </div>
+      <div class="well">
+        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+        Please <strong>log in</strong> to edit
+        <button class="btn btn-primary pull-right" type="submit"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</button>
+      </div>
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Teams
+          <span class="badge pull-right">317 teams</span>
+        </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <span class="badge">8 players</span>
+                <div class="media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object" src="./assets/images/dartboard.png" alt="Dartboard" height="45">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Tampa Dart Dynamos</h4>
+                    <p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small></p>
+                  </div>
+                </div>
+            </li>
+            <li class="list-group-item">
+              <span class="badge">6 players</span>
+              <div class="media">
+                <div class="media-left">
+                  <a href="#">
+                    <img class="media-object img-rounded" src="./assets/images/pingpong.jpg" alt="Ping Pong" height="45" width="45">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">St Pete Ping Pong Power House</h4>
+                  <p><small>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</small></p>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <span class="badge">6 players</span>
+              <div class="media">
+                <div class="media-left">
+                  <a href="#">
+                    <img class="media-object img-rounded" src="./assets/images/golf.jpg" alt="Golf" height="45" width="45">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">Tampa Dart Dynamos</h4>
+                  <p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small></p>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <nav aria-label="Page navigation">
+            <div class="panel-footer">
+              <div class="text-center">
+                <ul class="pagination">
+                  <li>
+                    <a href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                  <li>
+                    <a href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <span class="glyphicon glyphicon-check" aria-hidden="true"></span>
+             Games
+          </div>
+          <table class="table">
+            <tr>
+              <th>#</th>
+              <th>Home Team</th>
+              <th>Away Team</th>
+              <th>Score</th>
+            </tr>
+            <tr>
+              <td class="success">1</td>
+              <td class="success">Tampa Dart Dynamos</td>
+              <td class="success">Buffalo BullsEyes</td>
+              <td class="success">20-17</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>St Pete Ping Pong Power House</td>
+              <td>Philly Paddlers</td>
+              <td>18-12</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Orlando Golf Gang</td>
+              <td>Portland Putters</td>
+              <td>2-1</td>
+            </tr>
+          </table>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
