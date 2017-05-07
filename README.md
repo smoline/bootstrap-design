@@ -1,6 +1,8 @@
 
 # Bootstrap
 
+## Purpose of this repo is to learn to use Bootstrap 3
+
 Welcome to TIY Sports, the top sport tracking website for The Iron Yard student, staff, and alumni. We will be building the most elaborate system for tracking the various teams and sports we love to play here at TIY.
 
 However, before we can get started implementing our features we need to validate our visual design.
